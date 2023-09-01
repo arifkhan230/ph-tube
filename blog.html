@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question and Answer</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="text-center mt-12">
+        <h1 class="text-6xl font-bold text-purple-400">Question And Answer</h1>
+    </header>
+
+    <main>
+        <section class="mt-20 container mx-auto">
+            <div class="bg-gray-100  p-4 rounded-xl">
+                <h2 class="text-3xl pb-2">1. Discuss the scope of var, let, and const</h2>
+                <p>Answer: The scope of var variable is functional scope. We can update or re-declared into the scope.
+                    <br>
+                    The scope of var is block scope. It can be updated but cannot be re-declared into the scope. <br>
+                    The Scope of const is also block scope. It cannot be updated or re-declared into the scope. </p>
+            </div>
+            <div class="bg-gray-100  p-4 rounded-xl mt-4">
+                <h2 class="text-3xl pb-2">2.Tell us the use cases of null and undefined</h2>
+                <p> Ans: Null and undefined are two special values in JavaScript, and they are often used in different
+                    contexts for specific purposes. Here are common use cases for null and undefined: <br>
+                    undefined: <br>
+                    
+                    When you declare a variable but don't assign a value to it, it is initialized to undefined.
+                    If a function is called with fewer arguments than declared parameters, the missing parameters are assigned the value undefined.
+                    Missing Object Properties: If you try to access a property that doesn't exist in an object, it returns undefined. <br>
+
+                    Null: <br>
+                    Null is often used to explicitly indicate the absence of a value or to represent an empty state. <br>
+                    You can set a variable to null to clear out its value or reset it to a known empty state. <br>
+                    Null is sometimes used to check if an object or reference exists or not.
+                     </p>
+            </div>
+            <div class="bg-gray-100  p-4 rounded-xl mt-4">
+                <h2 class="text-3xl pb-2">What do you mean by REST API?</h2>
+                <p>
+                    Ans: REST API stands for Representational State Transfer Application Programming Interface. It is an architectural style for designing networked applications. REST is not a protocol but rather a set of constraints and principles for creating web services that use HTTP as the communication protocol. <br>
+                    In a RESTful API, resources are the central abstractions. Resources can represent objects, data, or services, and they are typically identified by URLs . <br>
+                    REST APIs are widely used in web and mobile applications for their simplicity, scalability, and compatibility with the HTTP protocol. They are a popular choice for building web services that can be easily consumed by a variety of clients.
+                </p>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
