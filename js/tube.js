@@ -31,7 +31,7 @@ const loadCategoryData = async (id) => {
         div.innerHTML = `
         <div>
             <div class="flex justify-center mb-8">
-                <img src="images/Icon.png" alt="">
+                <img src="./images/Icon.png" alt="">
             </div>
                 <h2 class="text-3xl text-center font-bold">Oops!! Sorry, There is no content here</h2>
             </div>
@@ -138,7 +138,7 @@ const sortData = (data) => {
                         <div class= "flex gap-2">
                             <h3 class= "text-[14px] font-medium text-[#171717B3] mb-3"> ${card.authors[0].profile_name}</h3>
                             <p>
-                                ${card.authors[0].verified? `<img class= "h-[20px] w-[20px]" src="images/tick.png" alt=""></img>` : ''} 
+                                ${card.authors[0].verified? `<img class= "h-[20px] w-[20px]" src="./images/tick.png" alt=""></img>` : ''} 
                             </p>
                         </div>
                         <h3 class= "text-[14px] font-medium text-[#171717B3] mb-3">${card.others.views} views</h3>
